@@ -1,0 +1,144 @@
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* CSS */
+
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+    .navbar-collapse{
+        text-align: center;
+    }
+    .img1{
+        width: 100%;
+        height: auto !important;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+    .navbar-collapse{
+        text-align: center;
+    }
+    .img1{
+        width: 100%;
+        height: auto !important;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    /* CSS */
+    .navbar-collapse{
+        text-align: center;
+    }
+    .img1{
+        width: 100%;
+        height: auto !important;
+    }
+    .logo1{
+        height: 60px !important;
+        width: auto !important;
+    }
+    .b-head-text{
+        font-size: 18px;
+        line-height: 80px;
+    }
+    .review span{
+        font-size: 22px;
+    }
+    .review i {
+        font-size: 22px;
+        color: #ffd800;
+    }
+    .b-footer button{
+        margin: 25px 0px;
+        border: 2px solid #fff;
+        padding: 10px 30px;
+  }
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 20px) and (max-width: 480px) {
+    
+    /* CSS */
+    img{
+        width: 100% !important;
+        height: auto !important;
+    }
+    .navbar-collapse{
+        text-align: center;
+    }
+    .img1{
+        width: 100%;
+        height: auto !important;
+    }
+    .logo1{
+        height: 50px !important;
+        width: auto !important;
+    }
+    .b-head-text{
+        font-size: 18px;
+        line-height: 60px;
+    }
+    .review span{
+        font-size: 18px;
+    }
+    .review i {
+        font-size: 18px;
+        color: #ffd800;
+    }
+    .b-footer button{
+        margin: 20px 0px;
+        border: 2px solid #fff;
+        padding: 8px 25px;
+  }
+  .review1{
+	padding: 50px 0px;
+}
+.review1 p{
+    font-size: 14px;
+}
+}
